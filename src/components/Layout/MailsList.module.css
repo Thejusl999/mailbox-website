@@ -1,0 +1,65 @@
+.emails {
+    text-align: center;
+    position: fixed;
+    background-color:#eee;
+    border-bottom: 1px solid #aaa;
+    z-index:10;
+    margin-left:-5px;
+    margin-top:-5px;
+    height:2.8rem;
+    padding-top:8px;
+}
+.inboxItem {
+    margin-top: 35px;
+    width: 100vw;
+    position: relative;
+    left: 6.5px;
+}
+.inboxItem ul {
+    list-style: none;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.inboxDiv {
+    z-index: 1;
+    display: block;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+    overflow: hidden;
+    margin-top: 2px;
+    max-height: 36px;
+    text-decoration: none;
+    color:black;
+    padding-top: 2px;
+}
+.inboxDiv:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.inboxDiv ul{
+    display: flex;
+    padding-left:10px;
+    padding-right:5px;
+}
+.unreadStatus{
+    height: 10px;
+    width: 10px;
+    margin-right: 3px;
+    margin-left: -7px;
+}
+.binIcon{
+    text-align: right;
+}
+.binIcon li{
+    display: inline;
+}
+.binIcon img{
+    height: 18px;
+    width: 13px;
+    margin-top: -3px;
+    margin-left: 5px;
+    cursor:default;
+}
+.binIcon img:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

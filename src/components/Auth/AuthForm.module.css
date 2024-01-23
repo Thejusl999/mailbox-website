@@ -1,0 +1,58 @@
+.auth {
+  margin: 5rem auto;
+  max-width: 19rem;
+  border-radius: 6px;
+  padding: 0.75rem;
+  border:1px solid gray;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem
+}
+.auth1 {
+  max-width: 20.5rem;
+}
+.auth1 button{
+  width: 19rem;
+  background-color: lightcyan;
+}
+.auth h1{
+  margin-bottom:1rem;
+  text-align:center;
+}
+.control { 
+  margin-bottom: 0.5rem;
+}
+.control label {
+  margin-left: -10px;
+}
+.control input {
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  padding: 0.25rem;
+}
+.actions {
+  margin-top: 1rem;
+}
+.actions button {
+  border-radius: 20px;
+}
+.forgotPasswordLink{
+  margin-top: -10px;
+}
+.auth p{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom:-10px;
+}
+.img{
+  border:none;
+  padding:0;
+  width:fit-content;
+  height:fit-content;
+  margin-left: 14.75rem;
+  margin-top: -30px;
+}
+.img img{
+  width:2rem;
+  height:1.25rem;
+}

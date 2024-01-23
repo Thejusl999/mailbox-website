@@ -1,0 +1,42 @@
+.homepageDiv {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.sideCol {
+    border-radius: 20px;
+    text-align: center;
+    width: 12rem;
+    margin-top: 1rem;
+    background-color: lightblue;
+    height: fit-content;
+    padding-bottom: 1.25rem;
+}
+.sideCol Button {
+    width: 7.5rem;
+    border-radius: 20px;
+}
+.showUnreadDiv{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px;
+    color:black;
+    text-align: center;
+}
+.emailsCol {
+    width: 100vw;
+    padding: 5px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.logoutBtn {
+    float: right;
+    margin-top: -34px;
+    margin-bottom: -1px;
+}
+.mailLink{
+    text-decoration:none;
+    color:black;
+}
